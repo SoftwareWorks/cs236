@@ -1,0 +1,81 @@
+SK(X,Y,X,Y,X)? Yes(1)
+  X='a', Y='b'
+SK(X,X,Y,'b',Y)? Yes(1)
+  X='b', Y='a'
+snap('a',X,Y,Z)? Yes(5)
+  X='L. Van Pelt', Y='34 Pear', Z='555-5678'
+  X='a', Y='c', Z='a'
+  X='a', Y='d', Z='a'
+  X='a', Y='d', Z='c'
+  X='b', Y='d', Z='a'
+snap('a',X,Y,Z)? Yes(5)
+  X='L. Van Pelt', Y='34 Pear', Z='555-5678'
+  X='a', Y='c', Z='a'
+  X='a', Y='d', Z='a'
+  X='a', Y='d', Z='c'
+  X='b', Y='d', Z='a'
+snap(X,X,'c',R)? Yes(1)
+  X='a', R='a'
+snap(X,X,'c',R)? Yes(1)
+  X='a', R='a'
+snap('a','a','d','c')? Yes(1)
+snap('a','a','d','c')? Yes(1)
+snap(G,G,'d','c')? Yes(1)
+  G='a'
+snap(G,G,'d','c')? Yes(1)
+  G='a'
+HasSameAddress('Snoopy',Who)? No
+test(A,A)? Yes(1)
+  A='83'
+test(Q,'89')? Yes(2)
+  Q='83'
+  Q='no'
+test('works',A)? Yes(2)
+  A='nope'
+  A='yep'
+snap(X,Y,X,Y)? Yes(1)
+  X='x', Y='y'
+snap(X,Y,X,Y)? Yes(1)
+  X='x', Y='y'
+test('83','89')? Yes(1)
+snap(S,'Snoopy',A,P)? Yes(2)
+  S='33333', A='12 Apple', P='555-1234'
+  S='yes', A='12 Apple', P='555-1234'
+snap(S,'Snoopy',A,P)? Yes(2)
+  S='33333', A='12 Apple', P='555-1234'
+  S='yes', A='12 Apple', P='555-1234'
+csg(Course,'33333',Grade)? Yes(3)
+  Course='CS101', Grade='A-'
+  Course='CS199', Grade='A-'
+  Course='EE200', Grade='B'
+cr('CS101','Auditorium')? Yes(1)
+cdh('EE200','F',Hour)? No
+csg(Course,Id,Grade)? Yes(13)
+  Course='9', Id='12345', Grade='10'
+  Course='CS101', Id='12345', Grade='A'
+  Course='CS101', Id='33333', Grade='A-'
+  Course='CS101', Id='67890', Grade='B'
+  Course='CS101', Id='g', Grade='B'
+  Course='CS199', Id='33333', Grade='A-'
+  Course='EE200', Id='12345', Grade='C'
+  Course='EE200', Id='222', Grade='B+'
+  Course='EE200', Id='22222', Grade='B+'
+  Course='EE200', Id='333', Grade='B'
+  Course='EE200', Id='33333', Grade='B'
+  Course='EE200', Id='e', Grade='C'
+  Course='PH100', Id='67890', Grade='C+'
+cdh(Course,Day,Hour)? Yes(7)
+  Course='CS101', Day='F', Hour='9PM'
+  Course='EE200', Day='M', Hour='10AM'
+  Course='EE200', Day='W', Hour='10AM'
+  Course='EE2110', Day='W', Hour='10AM'
+  Course='PH100', Day='Tu', Hour='11AM'
+  Course='a', Day='Tu', Hour='11AM'
+  Course='d', Day='M', Hour='10AM'
+cr(Course,Room)? Yes(6)
+  Course='1', Room='Newton Lab'
+  Course='CS101', Room='Auditorium'
+  Course='CS101', Room='b'
+  Course='EE200', Room='25 Ohm Hall'
+  Course='EE200', Room='a'
+  Course='PH100', Room='Newton Lab'

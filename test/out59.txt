@@ -1,0 +1,52 @@
+Dependency Graph
+  Q1: R1
+  R1: R2
+  R2: R3
+  R3: R4
+  R4: R5
+  R5: R6
+  R6: R7
+  R7: R8
+  R8: R9
+  R9:
+
+j('a')?
+
+  Postorder Numbers
+    Q1: 10
+    R1: 9
+    R2: 8
+    R3: 7
+    R4: 6
+    R5: 5
+    R6: 4
+    R7: 3
+    R8: 2
+    R9: 1
+
+  Rule Evaluation Order
+    R9
+    R8
+    R7
+    R6
+    R5
+    R4
+    R3
+    R2
+    R1
+
+  Backward Edges
+
+  Rule Evaluation
+    b(x) :- a(x)
+    c(x) :- b(x)
+    d(x) :- c(x)
+    e(x) :- d(x)
+    f(x) :- e(x)
+    g(x) :- f(x)
+    h(x) :- g(x)
+    i(x) :- h(x)
+    j(x) :- i(x)
+
+j('a')? Yes(1)
+

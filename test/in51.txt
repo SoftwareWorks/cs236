@@ -1,0 +1,32 @@
+Schemes:
+  a(x)
+  b(y)
+  c(x,y)
+  cdh(C,D,H)
+  cr(C,R)
+
+
+Facts:
+  a('a').
+  b('b').
+  cdh('CS101','Tu','9pm').
+  cdh('EE200','M','9pm').
+  cdh('EE200','W','9pm').
+  cdh('EE200','F','9pm').
+  cdh('PH150','Th','9pm').
+  cr('EE200', 'Hall').
+  cr('CS101', 'Room').
+  cr('PH150', 'Other').
+
+Rules:
+  c(x,y) :- a(x), b(y).
+  new(c,r) :- cdh(c, 'M', y), cr(c, r).
+  new(c,r) :- cdh(c, 'W', y), cr(c, r).
+  new(c,r) :- cdh(c, 'F', y), cr(c, r).
+
+Queries:
+  c(x,y)?
+  new(Course,Room)?
+  
+
+

@@ -1,0 +1,6 @@
+Schemes populated after 2 passes through the Rules.
+c(x,y)? Yes(1)
+  x='a', y='b'
+new(Course,Room)? Yes(1)
+  Course='EE200', Room='Hall'
+Done!

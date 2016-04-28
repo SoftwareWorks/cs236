@@ -1,0 +1,1747 @@
+Schemes:
+  snap(S,N,A,P)
+  test(A,B)
+  SK(A,B,C,D,E)
+  HasSameAddress(X,Y)
+  snap(S,N,A,P)
+  csg(C,S,G)
+  cdh(C,D,H)
+  cr(C,R)
+
+Facts: #comment
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','q','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','r','555-1234').
+  snap('a','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('yes','Snoopy','12 Apple','555-1234').
+  csg('9','12345','10').
+  csg('CS101','g','B').
+  csg('CS199','33333','A-').
+  csg('EE200','e','C').
+  csg('EE200','222','B+').
+  csg('EE200','333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('d','M','10AM').
+  cdh('EE2110','W','10AM').
+  cdh('a','Tu','11AM').
+  cr('CS101','b').
+  cr('EE200','a').
+  cr('1','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+    snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  test('83','89').
+  test('83','no').
+  test('no','89').
+  snap('a','a','d','a').
+  snap('a','b','d','a').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','d','c').
+  snap('a','a','c','a').
+  snap('x','y','x','y').
+  test('83','83').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  test('works','yep').
+  test('works','nope').
+  test('three','4').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  SK('a','b','a','b','a').
+  SK('a','b','a','b','c').
+  SK('b','b','a','b','a').
+  snap('12345','C. Brown','12 Apple','555-1234').
+  snap('67890','L. Van Pelt','34 Pear','555-5678').
+  snap('22222','P. Patty','56 Grape','555-9999').
+  snap('33333','Snoopy','12 Apple','555-1234').
+  csg('CS101','12345','A').
+  csg('CS101','67890','B').
+  csg('CS101','33333','A-').
+  csg('EE200','12345','C').
+  csg('EE200','22222','B+').
+  csg('EE200','33333','B').
+  csg('PH100','67890','C+').
+  cdh('CS101','F','9PM').
+  cdh('EE200','M','10AM').
+  cdh('EE200','W','10AM').
+  cdh('PH100','Tu','11AM').
+  cr('CS101','Auditorium').
+  cr('EE200','25 Ohm Hall').
+  cr('PH100','Newton Lab').
+  
+Rules:
+  HasSameAddress(X,Y) :- snap(A,X,B,C),snap(D,Y,B,E).
+
+Queries:
+  SK(X,Y,X,Y,X)?
+  SK(X,X,Y,'b',Y)? 
+  snap('a',X,Y,Z)?
+  snap(X,X,'c',R)?
+  snap('a','a','d','c')?
+  snap(G,G,'d','c')?
+  HasSameAddress('Snoopy',Who)?
+  test(A,A)?
+  test(Q,'89')?
+  test('works', A)?
+  snap(X,Y,X,Y)?
+  test('83','89')?
+  snap(S,'Snoopy',A,P)?
+  csg(Course,'33333',Grade)?
+  cr('CS101','Auditorium')?
+  cdh('EE200','F',Hour)?
+  csg(Course,Id,Grade)?
+  cdh(Course,Day,Hour)?
+  cr(Course,Room)?
+  
+  
